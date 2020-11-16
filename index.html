@@ -13,6 +13,8 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Main CSS-->
     <link rel="stylesheet" href="style.css">
+    <!--Script-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
@@ -112,7 +114,7 @@
         <h5 class='title d-none'>What We Do</h5>
         <div class='mission d-flex w-100 justify-content-end align-items-center'>
             <span class='d-none'>Our mission is to create sustainable work gravida, tellus sit amet pretium auctor, mauris ligula egestas tellus, sed porta erat nunc ut ligula.</span>
-            <button class='btn volunteer'>Become a volunteer</button>
+            <button class='btn volunteer font-weight-bold'>Become a volunteer</button>
         </div>
         <div class='cards card-deck'>
             <cards class='card card1 d-flex'>
@@ -120,7 +122,7 @@
                 <div class='card-body d-flex flex-column align-items-center'>
                     <h5 class='card-title align-self-start font-weight-bold'>Nulla eu rutrum enim</h5>
                     <p class='card-text'>Ut bibendum sagittis nibh, eget finibus sapien ornare sed. Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo</p>
-                    <a href="" class='btn'>Learn More</a>
+                    <a href="" class='btn font-weight-bold'>Learn More</a>
                 </div>
             </cards>
             <cards class='card card2'>
@@ -128,7 +130,7 @@
                 <div class='card-body d-flex flex-column align-items-center'>
                     <h5 class='card-title align-self-start font-weight-bold'>Vestibulum eu leo euismod</h5>
                     <p class='card-text'>Ut bibendum sagittis nibh, eget finibus sapien ornare sed. Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo</p>
-                    <a href="" class='btn'>Learn More</a>
+                    <a href="" class='btn font-weight-bold'>Learn More</a>
                 </div>
             </cards>
             <cards class='card card3'>
@@ -136,7 +138,7 @@
                 <div class='card-body d-flex flex-column align-items-center'>
                     <h5 class='card-title align-self-start font-weight-bold'>Phasellus pharetra tempus</h5>
                     <p class='card-text'>Ut bibendum sagittis nibh, eget finibus sapien ornare sed. Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo</p>
-                    <a href="" class='btn'>Learn More</a>
+                    <a href="" class='btn font-weight-bold'>Learn More</a>
                 </div>
             </cards>
         </div>
@@ -177,23 +179,70 @@
         <div id="douze"></div>
         <div id="treize"></div>
     </section>
-    <section class="donate">
-        <div class="container-fluid">
-            <p></p>
-            <form action=""></form>
+    <section class="donate container-fluid col-9">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class='col-6'>
+                <p class='d-none'>
+                    Want to help? We are always in need of donations, vitae ex quam. Quisque nulla purus, elementum eu nunc at, cursus finibus tortor.
+                </p>
+                <p> Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo.
+                    <br/>
+                    <br/>
+                    Nulla porta dui non libero viverra mattis a nec velit. Integer nulla tellus, dignissim eget posuere a, lobortis in justo. Quisque hendrerit egestas neque. Donec turpis sapien, dignissim in augue ac, venenatis interdum justo.
+                </p>
+            </div>
+            <form action="form.php" method="POST" class='col-4 py-3'>
+                <div class='form-group'>
+                    <label for="name">Name:</label>
+                    <input class='form-control' type="text" id='name'>
+                </div>
+                <div class='form-group'>
+                    <label for="email">Email:</label>
+                    <input class='form-control' type="text" id='email'>
+                </div>
+                <div class='form-group'>
+                    <label for="">Amount:</label>
+                    <div class='d-flex'>
+                        <select name="" id="">
+                            <option value="">PHP</option>
+                        </select>
+                        <input class='form-control' type="text">
+                    </div>
+                </div>
+                <button class='btn submit mt-2 font-weight-bold' action='submit.php'>Donate<i class='fas fa-heart ml-2'></i></button>
+            </form>
         </div>
     </section>
-    <section class="readingResources">
-        <button></button>
-        <cards></cards>
-        <cards></cards>
-        <cards></cards>
+    <section class="readingResources container-fluid col-9 d-flex flex-column align-items-end">
+        <div>
+            <button class='btn partner font-weight-bold'>Become a partner</button>
+        </div>
+        <div class='card-deck'>
+            <cards class='card d-flex flex-column p-4'>
+                <h5 class='card-title font-weight-bold'>Nulla eu rutrum enim</h5>
+                <p class='card-text'>Ut bibendum sagittis nibh, eget finibus sapien ornare sed. Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo</p>
+                <button class='btn font-weight-bold download w-50 align-self-center'>Download</button>
+            </cards>
+            <cards class='card d-flex flex-column p-4'>
+                <h5 class='card-title font-weight-bold'>Nulla eu rutrum enim</h5>
+                <p class='card-text'>Ut bibendum sagittis nibh, eget finibus sapien ornare sed. Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo</p>
+                <button class='btn font-weight-bold download w-50 align-self-center'>Download</button>
+            </cards>
+            <cards class='card d-flex flex-column p-4'>
+                <h5 class='card-title font-weight-bold'>Nulla eu rutrum enim</h5>
+                <p class='card-text'>Ut bibendum sagittis nibh, eget finibus sapien ornare sed. Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo</p>
+                <button class='btn font-weight-bold download w-50 align-self-center'>Download</button>
+            </cards>
+        </div>
     </section>
-    <section class="newsletter">
-        <div class="container">
-            <h2></h2>
-            <p></p>
-            <form action=""></form>
+    <section class="newsletter container-fluid col-9">
+        <div class="container p-5 d-flex flex-column align-items-center">
+            <h5 class='d-none font-weight-bold'>Helps us make more sustainable projects</h5>
+            <p>Donec turpis sapien, dignissim in augue ac, venenatis interdum justo. </p>
+            <form action="newsletter.php" method="POST" class='d-flex'>
+                <input type="text" placeholder="Email">
+                <input type="submit" value='Subscribe' class='btn submit font-weight-bold'>
+            </form>
         </div>
     </section>
     <footer>
