@@ -8,13 +8,39 @@
 .whatWeDo{
     margin-left: 249.5px;
     margin-right: 249.5px;
+    margin-top: 120px;
+    height: 567px;
 }
 .whatWeDo .btn{
     color: white;
     background-color:rgba(14, 98, 72, 1);
 }
+.whatWeDo .mission{
+    margin-top: 8px;
+    margin-right: 4.5px;
+}
 
-
+.whatWeDo .mission span{
+    margin-right:56px;
+}
+.whatWeDo .cards{
+    margin-top: 92px;
+}
+.whatWeDo .card{
+    border-radius: 8px;
+    margin-right: 38px;
+}
+.whatWeDo .card1{
+    margin-left: 0.5px;
+}
+.whatWeDo .card3{
+    margin-right: 24.5px;
+}
+.whatWeDo .card-img-top{
+    position: relative;
+    top: -24px;
+    left: 24px;
+}
 
 /*Antoine*/
 section.hero {
