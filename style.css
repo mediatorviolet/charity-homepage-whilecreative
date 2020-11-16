@@ -5,6 +5,14 @@
 }
 
 /* Clarisse */
+.whatWeDo{
+    margin-left: 249.5px;
+    margin-right: 249.5px;
+}
+.whatWeDo .btn{
+    color: white;
+    background-color:rgba(14, 98, 72, 1);
+}
 
 
 
