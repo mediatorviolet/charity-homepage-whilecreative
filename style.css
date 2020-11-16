@@ -71,6 +71,18 @@ form .submit{
     color: white;
     background-color:rgba(14, 98, 72, 1);
 }
+
+    /*Reading Ressource*/
+.readingResources{
+    margin-top: 160px;
+}
+.readingResources .partner{
+    margin-bottom: 60px;
+}
+.readingResources .btn{
+    color: white;
+    background-color:rgba(14, 98, 72, 1);
+}
 /*Antoine*/
 
 /*** Section Hero ***/
