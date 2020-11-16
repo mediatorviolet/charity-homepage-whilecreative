@@ -83,6 +83,20 @@ form .submit{
     color: white;
     background-color:rgba(14, 98, 72, 1);
 }
+
+    /*Newsletter*/
+.newsletter{
+    color: white;
+    background-color: rgba(14, 98, 72, 1);
+    border-radius: 8px;
+    margin-top: 120px;
+}
+.newsletter .btn{
+    color:rgba(14, 98, 72, 1);
+    background-color:rgba(255, 255, 255, 0.851);
+}
+
+
 /*Antoine*/
 
 /*** Section Hero ***/
