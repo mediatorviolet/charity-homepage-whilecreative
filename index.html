@@ -13,6 +13,8 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Main CSS-->
     <link rel="stylesheet" href="style.css">
+    <!--Script-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
@@ -162,10 +164,38 @@
         </div>
     </section>
     <section class="gallery"></section>
-    <section class="donate">
-        <div class="container-fluid">
-            <p></p>
-            <form action=""></form>
+    <section class="donate container-fluid col-9">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class='col-6'>
+                <p class='d-none'>
+                    Want to help? We are always in need of donations, vitae ex quam. Quisque nulla purus, elementum eu nunc at, cursus finibus tortor.
+                </p>
+                <p> Mauris eget elit pharetra neque dictum bibendum at vestibulum sapien. Proin sodales, ex ac ornare hendrerit, nulla nisl semper leo.
+                    <br/>
+                    <br/>
+                    Nulla porta dui non libero viverra mattis a nec velit. Integer nulla tellus, dignissim eget posuere a, lobortis in justo. Quisque hendrerit egestas neque. Donec turpis sapien, dignissim in augue ac, venenatis interdum justo.
+                </p>
+            </div>
+            <form action="form.php" method="POST" class='col-4 py-3'>
+                <div class='form-group'>
+                    <label for="name">Name:</label>
+                    <input class='form-control' type="text" id='name'>
+                </div>
+                <div class='form-group'>
+                    <label for="email">Email:</label>
+                    <input class='form-control' type="text" id='email'>
+                </div>
+                <div class='form-group'>
+                    <label for="">Amount:</label>
+                    <div class='d-flex'>
+                        <select name="" id="">
+                            <option value="">PHP</option>
+                        </select>
+                        <input class='form-control' type="text">
+                    </div>
+                </div>
+                <button class='btn submit mt-2' action='submit.php'>Donate<i class='fas fa-heart ml-2'></i></button>
+            </form>
         </div>
     </section>
     <section class="readingResources">

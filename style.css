@@ -57,6 +57,20 @@
     background-color: rgba(251, 248, 246, 1);
 }
 
+    /*Donate*/
+.donate{
+    margin-top: 100px;
+}
+.donate form{
+    border: 1px solid #FBF8F6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(16, 114, 83, 0.16);
+    border-radius: 4px;
+}
+form .submit{
+    color: white;
+    background-color:rgba(14, 98, 72, 1);
+}
 /*Antoine*/
 
 /*** Section Hero ***/
