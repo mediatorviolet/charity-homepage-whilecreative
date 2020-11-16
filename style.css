@@ -58,3 +58,10 @@ section.quickInfo {
     font-size: 1.4rem;
     color: #272727;
 }
+
+/*** Section Gallery ***/
+
+section.gallery {
+    height: 382px;
+    background-color: tomato;
+}
