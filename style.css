@@ -14,7 +14,9 @@
 
 .whatWeDo .mission{
     margin-top: 8px;
-    margin-right: 4.5px;
+}
+.whatWeDo .volunteer{
+    width: 20%;
 }
 .whatWeDo .btn{
     color: white;
