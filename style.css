@@ -58,6 +58,9 @@
 }
 
 /*Antoine*/
+
+/*** Section Hero ***/
+
 section.hero {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0001) 85.4%), url('img/hero.jpeg');
     background-size: 100%;
@@ -92,4 +95,15 @@ section.hero {
 .btn-learn-more {
     background: rgba(255, 255, 255, 0.85);
     border-radius: 4px;
+}
+
+/*** Section Quick Infos ***/
+
+section.quickInfo {
+    background-color: #FBF8F6;
+}
+
+.col-8 > p:nth-child(1) {
+    font-size: 1.4rem;
+    color: #272727;
 }
