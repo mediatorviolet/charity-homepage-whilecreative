@@ -23,8 +23,13 @@ section.hero {
     font-weight: bold;
 }
 
-.btn-share {
+.btn-share, .btn-volunteer {
     background: #0E6248;
     border-radius: 4px;
     color: white;
+}
+
+.btn-learn-more {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 4px;
 }
