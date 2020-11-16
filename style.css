@@ -154,3 +154,158 @@ section.quickInfo {
     font-size: 1.4rem;
     color: #272727;
 }
+
+/*** Section Gallery ***/
+
+section.gallery {
+    height: 382px;
+    background-color: tomato;
+}
+
+#un {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    left: 320px;
+    top: 1829px;
+
+    background: url(img/Gallery/gallery_1.jpg);
+    border-radius: 8px;
+}
+
+#deux {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 164px;
+    top: 1819px;
+
+    background: url(img/Gallery/gallery_2.jpg);
+    border-radius: 8px;
+}
+
+#trois {
+    position: absolute;
+width: 120px;
+height: 120px;
+left: 1174px;
+top: 1815px;
+
+background: url(img/Gallery/gallery_3.jpg);
+border-radius: 8px;
+}
+
+#quatre {
+    
+position: absolute;
+width: 160px;
+height: 160px;
+left: 593px;
+top: 1975px;
+
+background: url(img/Gallery/gallery_4.jpg);
+border-radius: 8px;
+}
+
+#cinq {
+    position: absolute;
+width: 160px;
+height: 216px;
+left: 1449px;
+top: 1951px;
+
+background: url(img/Gallery/gallery_5.jpg);
+border-radius: 8px;
+}
+
+#six {
+    
+position: absolute;
+width: 160px;
+height: 160px;
+left: 1174px;
+top: 1981px;
+
+background: url(img/Gallery/gallery_6.jpg);
+border-radius: 8px;
+}
+
+#sept {
+    position: absolute;
+width: 160px;
+height: 160px;
+left: -144px;
+top: 1975px;
+
+background: url(img/Gallery/gallery_7.jpg);
+border-radius: 8px;
+}
+
+#huit {
+    
+position: absolute;
+width: 160px;
+height: 160px;
+left: 782px;
+top: 1995px;
+
+background: url(img/Gallery/gallery_8.jpg);
+border-radius: 8px;
+}
+
+#neuf {
+    
+position: absolute;
+width: 160px;
+height: 306px;
+left: 978px;
+top: 1851px;
+
+background: url(img/Gallery/gallery_9.jpg);
+border-radius: 8px;
+}
+
+#dix {
+    position: absolute;
+width: 200px;
+height: 160px;
+left: 84px;
+top: 1985px;
+
+background: url(img/Gallery/gallery_10.jpg);
+border-radius: 8px;
+}
+
+#onze {
+    position: absolute;
+width: 200px;
+height: 120px;
+left: 1411px;
+top: 1805px;
+
+background: url(img/Gallery/gallery_11.jpg);
+border-radius: 8px;
+}
+
+#douze {
+    position: absolute;
+width: 336px;
+height: 144px;
+left: 606px;
+top: 1805px;
+
+background: url(img/Gallery/gallery_12.jpg);
+border-radius: 8px;
+}
+
+#treize {
+    
+position: absolute;
+width: 336px;
+height: 144px;
+left: -256px;
+top: 1805px;
+
+background: url(img/Gallery/gallery_13.jpg);
+border-radius: 8px;
+}
