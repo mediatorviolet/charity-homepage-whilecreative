@@ -23,6 +23,17 @@ section.hero {
     font-weight: bold;
 }
 
+.jumbotron {
+    margin-top: 100px;
+    background: transparent;
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
 .btn-share, .btn-volunteer {
     background: #0E6248;
     border-radius: 4px;
